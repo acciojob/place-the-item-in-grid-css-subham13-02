@@ -1,10 +1,8 @@
 
 .holder{
-	display:grid;
-	grid-template-columns: repeat(2 ,10%);
-  
-}
-.div{
-	height:100px;
-	width:100px;
+	display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 10px;
+  justify-content: center;
 }
